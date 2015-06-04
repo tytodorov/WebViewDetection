@@ -10,24 +10,19 @@
       models: {
         home: {
           title: 'USE ON ACTUAL DEVICE',
-          userAgent : navigator.userAgent ,
-          isIOS : function() {
-              var iOS = (navigator.userAgent.match(/(iPad|iPhone|iPod)/g) ? true : false);
-              return iOS;
-          },
           webView: function() {
-            if (this.get("isIOS") == false) {
-                if (this.get("userAgent").indexOf("Crosswalk") !=-1) {
-                    return "THIS IS CROSSWALK WEBVIEW (android)";
-                } else {
-                    return "THIS IS DEFAULT  WEBVIEW (android)";
-                }
-            } else {
+            if (device.platform === "iOS") {
                 if (window.webkit && window.webkit.messageHandlers) {
                     return "THIS IS WKWEBVIEW WEBVIEW (ios)";
                   } else {
                     return "THIS IS DEFAULT UIWEBVIEW (ios)";
                   }
+            } else {
+                if (navigator.userAgent.indexOf("Crosswalk") !=-1) {
+                    return "THIS IS CROSSWALK WEBVIEW (android)";
+                } else {
+                    return "THIS IS DEFAULT  WEBVIEW (android)";
+                }
             }
          }
       
