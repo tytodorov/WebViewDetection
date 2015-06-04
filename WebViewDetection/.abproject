@@ -1,0 +1,45 @@
+{
+  "ProjectName": "WebViewDetection",
+  "ProjectGuid": "0641d9fd-ef9d-4737-832c-d30ba9a0cdb4",
+  "projectVersion": 1,
+  "AppIdentifier": "com.telerik.WebViewDetection",
+  "DisplayName": "WebViewDetection",
+  "Author": "",
+  "Description": "WebViewDetection",
+  "BundleVersion": "1.0",
+  "AndroidVersionCode": "1",
+  "iOSDeviceFamily": [
+    "1",
+    "2"
+  ],
+  "iOSBackgroundMode": [],
+  "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
+  "FrameworkVersion": "3.7.0",
+  "AndroidPermissions": [
+    "android.permission.INTERNET"
+  ],
+  "DeviceOrientations": [
+    "Portrait",
+    "Landscape"
+  ],
+  "AndroidHardwareAcceleration": "false",
+  "iOSStatusBarStyle": "Default",
+  "Framework": "Cordova",
+  "WP8TileTitle": "",
+  "WP8Publisher": "",
+  "WP8Capabilities": [
+    "ID_CAP_NETWORKING",
+    "ID_CAP_WEBBROWSERCOMPONENT"
+  ],
+  "WP8Requirements": [],
+  "WP8PublisherID": "{3c1ba36d-cc3d-47d5-8a31-4808240c7f69}",
+  "WP8ProductID": "{858b89ae-8227-4c65-804d-876857b7c77f}",
+  "WPSdk": "8.0",
+  "WP8PackageIdentityName": "1234Telerik.WebViewDetection",
+  "WP8WindowsPublisherName": "CN=Telerik",
+  "WP8SupportedResolutions": [
+    "ID_RESOLUTION_WVGA",
+    "ID_RESOLUTION_WXGA",
+    "ID_RESOLUTION_HD720P"
+  ]
+}
